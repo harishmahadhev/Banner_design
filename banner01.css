@@ -1,0 +1,556 @@
+.container {
+    font-family: 'Rubik', sans-serif;
+    margin: 10px;
+}
+
+.part-1 .left h1 {
+    font-size: 38px;
+    text-align: center;
+    width: 100%;
+    color: #04c0ce
+}
+
+.color1 {
+    color: #04c0ce
+}
+
+.color2 {
+    color: #FFC800;
+}
+
+.part-1 p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    /* color: gray; */
+}
+
+.left {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px 0px;
+    height: 100vh;
+    border-right: 1px dashed black;
+}
+
+.image img {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 30px;
+}
+
+.image {
+    position: relative;
+}
+
+.banner {
+    color: white;
+    position: absolute;
+    top: 2px;
+    left: 30%;
+}
+
+.part-2 {
+    margin-top: 15px;
+}
+
+.part-2 h2 {
+    color: rgb(14, 94, 141);
+}
+
+.part-2 p {
+    line-height: 1.25em;
+    text-align: left;
+}
+
+.icon-set {
+    /* border: 1px solid brown; */
+    position: relative;
+    top: 50px;
+}
+
+.cake img {
+    height: 120px;
+    width: 120px;
+}
+
+.cake {
+    display: inline-block;
+    bottom: 0%;
+}
+
+.cake.dup {
+    opacity: 50%;
+    position: absolute;
+    right: 35px;
+    z-index: -10;
+}
+
+.cake.dup img {
+    width: 90px;
+    height: 90px;
+}
+
+.row.part-3 {
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+.col.part-3 {
+    left: -15px;
+    width: 10px;
+    margin: 0px 0px 20px 10px;
+    padding: 0px 10px 0px 0px;
+}
+
+.fries {
+    display: inline-block;
+    bottom: 0%;
+}
+
+.donut {
+    display: inline-block;
+    position: absolute;
+    bottom: 0%;
+}
+
+.glass {
+    display: inline-block;
+    position: absolute;
+    bottom: 0%;
+    left: -20px;
+}
+
+.fries img {
+    height: 110px;
+    width: 110px;
+}
+
+.donut img {
+    height: 100px;
+    width: 100px;
+}
+
+.glass img {
+    height: 110px;
+    width: 110px;
+}
+
+.fries.dup img {
+    width: 90px;
+    height: 90px;
+}
+
+.donut.dup img {
+    width: 80px;
+    height: 80px;
+}
+
+.glass.dup img {
+    width: 90px;
+    height: 90px;
+}
+
+.fries.dup {
+    opacity: 50%;
+    position: absolute;
+    bottom: 2px;
+    left: 70px;
+    z-index: -10;
+}
+
+.donut.dup {
+    opacity: 50%;
+    position: absolute;
+    bottom: 2px;
+    left: 80px;
+    z-index: -10;
+}
+
+.glass.dup {
+    opacity: 50%;
+    position: absolute;
+    bottom: 2px;
+    left: 70px;
+    z-index: -10;
+}
+
+.right .image {
+    margin-top: 10px;
+}
+
+.row.part-4 {
+    margin-top: 20px;
+    height: 120px;
+}
+
+.part-4 .col-4 {
+    top: 10px;
+    left: 0px;
+    height: 120px;
+    width: 10px;
+}
+
+.part-4 .col-4 h2 {
+    display: inline-block;
+    text-align: right;
+    color: rgb(14, 94, 141);
+    font-size: 30px;
+    padding: 0px;
+}
+
+.part-4 .col-4 h1 {
+    display: inline;
+    position: relative;
+    font-weight: 400;
+    bottom: 15px;
+    left: 20%;
+    text-align: right;
+    font-size: 48px;
+    padding: 0px;
+    color: #FFC800;
+    margin: 0%;
+}
+
+.part-4 .col-4 h3 {
+    /* display: inline; */
+    position: relative;
+    left: 5%;
+    bottom: 20px;
+    color: #0e5e8d;
+    text-align: right;
+    font-size: 12px;
+    width: 80%;
+}
+
+.part-4 .col-8 {
+    left: -30px;
+    height: 120px;
+    margin: 0px;
+}
+
+.fastfood img {
+    position: absolute;
+    bottom: 0px;
+    width: 90px;
+    height: 90px;
+}
+
+.donut-2 img {
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+    width: 90px;
+    height: 90px;
+}
+
+.burger img {
+    position: absolute;
+    bottom: 0px;
+    left: 205px;
+    width: 80px;
+    height: 80px;
+}
+
+.icecream img {
+    position: absolute;
+    bottom: 0px;
+    left: 275px;
+    width: 90px;
+    height: 90px;
+}
+
+.part-5 {
+    margin-top: 10px;
+    height: 200px;
+}
+
+.part-5 .col-3 {
+    box-sizing: border-box;
+    margin: 6px;
+    display: block;
+    position: relative;
+}
+
+.part-5 .adults {
+    position: relative;
+    left: 15px;
+    width: 100%;
+}
+
+.part-5 .adults h1 {
+    letter-spacing: .01em;
+    font-size: 28px;
+    padding: 0%;
+    text-align: left;
+    display: inline;
+}
+
+.part-5 .adults h2 {
+    color: #FFC800;
+    font-size: 25px;
+}
+
+.part-5 .adults .row .col-4 h1 {
+    color: #0e5e8d;
+    /* background-color: brown; */
+    position: relative;
+    bottom: 15px;
+    font-size: 45px;
+}
+
+.part-5 .adults .row .col-8 {
+    position: relative;
+    left: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.part-5 .adults .row .col-8 .man i {
+    height: 0px;
+    width: 0px;
+    color: #04c0ce;
+    margin: 25px 15px;
+}
+
+.part-5 .adults .row .col-8 .man {
+    display: inline-block;
+}
+
+.adults .row {
+    margin-top: 10px;
+}
+
+.right .row {
+    margin: 10px 0;
+}
+
+.right .row h2 {
+    font-size: 30px;
+    color: #0e5e8d;
+}
+
+.right .grains .col-4 {
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.right .row .col-4 h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFC800;
+}
+
+.right .grains .col-2 h3 {
+    color: #04c0ce;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1em;
+}
+
+.bread img {
+    left: 10;
+    position: absolute;
+    bottom: 0px;
+    width: 90px;
+    height: 90px;
+}
+
+.grains {
+    position: relative;
+    left: 20px;
+    justify-content: stretch;
+}
+
+.fruits {
+    justify-content: stretch;
+}
+
+.right .fruits .col-4 {
+    display: inline;
+    position: relative;
+    left: -6px;
+    bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right .fruits .col-4 h3 {
+    color: #04c0ce;
+    display: inline;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.right .fruits .col-4 h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFC800;
+}
+
+.right .fruits .col-4 {
+    position: relative;
+}
+
+.vegetables img {
+    display: inline;
+    width: 80px;
+    height: 80px;
+}
+
+.meat {
+    justify-content: stretch;
+}
+
+.right .meat .col-4 {
+    align-items: center;
+    display: inline;
+    position: relative;
+    left: -3px;
+    bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right .meat .col-4 h3 {
+    color: #04c0ce;
+    display: inline;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.right .meat .col-4 h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFC800;
+}
+
+.right .meat .col-4 {
+    position: relative;
+}
+
+.milk {
+    justify-content: stretch;
+}
+
+.right .milk .col-4 {
+    align-items: center;
+    display: inline;
+    position: relative;
+    left: -3px;
+    bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right .milk .col-4 h3 {
+    color: #04c0ce;
+    display: inline;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.right .milk .col-4 h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFC800;
+}
+
+.right .milk .col-4 {
+    position: relative;
+}
+
+.cookies img {
+    display: inline;
+    width: 80px;
+    height: 80px;
+}
+
+.right .milk {
+    margin-bottom: 13px;
+}
+
+.right .row {
+    margin-top: 20px;
+}
+
+.injection {
+    display: grid;
+    place-items: center;
+    border: 2px solid #0e5e8d;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px
+}
+
+.injection img {
+    transform: rotate(150deg);
+    width: 70px;
+    height: 70px;
+}
+
+.right .diabetes {
+    margin: 50px 0;
+}
+
+.right .diabetes .col-8 {
+    left: 50px;
+}
+
+.right .diabetes .col-8 h1 {
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    color: #0e5e8d;
+    ;
+}
+
+.right .diabetes .col-8 h5 {
+    display: inline;
+    color: #FFC800;
+}
+
+.right .diabetes .col-8 h3 {
+    font-size: 25px;
+    margin: 0px;
+    display: inline-block;
+    color: #FFC800;
+}
+
+.right .diabetes .col-8 p {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.25em;
+}
+
+.heart {
+    display: grid;
+    place-items: center;
+    border: 2px solid #0e5e8d;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px
+}
+
+.heart img {
+    width: 70px;
+    height: 70px;
+}
